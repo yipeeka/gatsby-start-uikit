@@ -3,10 +3,6 @@ import { Link } from 'gatsby'
 
 const SecondPage = () => (
   <div>
-    <p data-uk-margin>
-      <button className="uk-button uk-button-default">Button</button>
-      <button className="uk-button uk-button-default" disabled>Disabled</button>
-    </p>
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
@@ -14,6 +10,11 @@ const SecondPage = () => (
       <h3 className="uk-card-title">Default</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
+
+    <p data-uk-margin>
+      <button className="uk-button uk-button-default">Button</button>
+      <button className="uk-button uk-button-default" disabled>Disabled</button>
+    </p>
 
     <button className="uk-button uk-button-default uk-margin-small-right" type="button" data-uk-toggle="target: #modal-example">
       Open
